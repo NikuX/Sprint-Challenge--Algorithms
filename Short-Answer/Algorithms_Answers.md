@@ -5,7 +5,8 @@
 a) O(n) linear time: loop that need to iterate n times. 
 
 
-b) O(n^2) quadratic time: 2 nested loops 'for' and 'while', that means n*n.
+b) O(n log(n)) complexity time: 'for' loop iterate n times and 'while' is iterating lon(n) time as there is a 
+   multiplication operation by 2 that cut time every time in half.
 
 
 c) O(n) linear time: recursive function without other loops inside. It will take n times to reach the base case 
